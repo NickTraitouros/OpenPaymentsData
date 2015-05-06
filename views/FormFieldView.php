@@ -1,0 +1,1 @@
+<?php echo $header->name ?> <input type="text" name="opd_<?php echo $header->id ?>" onKeyUp="search()"><br>
