@@ -4,7 +4,7 @@ require_once("database/DBHandler.php");
 require_once("models/OpenPaymentsModel.php");
 require_once("app_config.php");
 
-$db = new DBHandler(DB_HOSTNAME, DB_USER, DB_PASSWORD, "OpenPayments");
+$db = new DBHandler(DB_HOSTNAME, DB_USER, DB_PASSWORD, DB_NAME);
 
 $OPDModel = new OpenPaymentsModel($db);
 
